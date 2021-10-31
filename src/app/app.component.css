@@ -1,8 +1,19 @@
-p {
-  font-family: Lato;
+.card-bonita {
+  display: flex;
+  margin: 0 auto;
+  width: 25em;
+  height: 25em;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 135, 71, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  align-items: center;
 }
 
-.card-bonita {
-  margin: 4em;
-  width: 70%;
+.main-title {
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
 }
